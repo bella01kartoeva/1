@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  list-style: none;
+}
+.header {
+  display: flex;
+  gap: 108px;
+  justify-content: center;
+
+  padding: 26px 149px;
+
+  background: #fff;
+}
+.Search {
+  width: 398px;
+  height: 54px;
+  border-radius: 10px;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  padding: 16px;
+}
+.icon {
+  display: flex;
+
+  gap: 24px;
+}
+
+body {
+  background: rgb(237, 234, 234);
+}
+.status {
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  width: 520px;
+  height: 68px;
+  gap: 11px;
+  margin: 26px 155px;
+  padding: 7px 11px;
+}
